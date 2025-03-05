@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spring-boot-api
+    runtime: docker
+    repo: https://github.com/talhaahmed15/Java-APIs.git
+    plan: free
+    branch: main
+    envVars:
+      - key: PORT
+        value: 8080
